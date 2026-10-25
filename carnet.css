@@ -1,0 +1,156 @@
+:root{--paper:#f6f0e4;--ink:#273c34;--red:#a5352b;--pencil:#626859;--line:#cfbfa3;--serif:'Cormorant Garamond',Georgia,serif;--hand:'Caveat',cursive;--body:'DM Sans',sans-serif;color-scheme:light}
+img{height:auto}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scrollbar-color:#b4a48b var(--paper)}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.65;overflow-x:clip}::selection{background:#bd5e4840;color:var(--ink)}a{color:inherit;text-underline-offset:5px;text-decoration-thickness:1px}a:hover{color:var(--red)}a:focus-visible,summary:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--red);outline-offset:6px}p,h1,h2,h3,figure{margin:0}p+p{margin-top:14px}h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.05;letter-spacing:-.025em}h2{font-size:clamp(40px,4.6vw,68px)}h3{font-size:36px}em{font-weight:400}img{display:block;max-width:100%}summary{cursor:pointer}details>summary{width:fit-content;text-decoration:underline;text-underline-offset:5px}details[open]>summary{margin-bottom:15px}details>p{margin-top:12px}.handwriting{font-family:var(--hand);font-size:30px;line-height:1.2;font-weight:400;color:var(--red)}.fine{font-size:11px;color:var(--pencil)}.small-link{font-size:12px}.cover{height:min(920px,100svh);min-height:720px;position:relative;overflow:hidden}.cover-art{position:absolute;width:100%;height:100%;object-fit:cover;object-position:center 66%}.cover-copy{position:relative;padding-top:9vh;margin-left:9vw;width:48%;max-width:710px}.cover-date{font-size:12px;color:var(--red);margin-bottom:35px;letter-spacing:.04em}h1{font-size:clamp(68px,7.5vw,112px);line-height:.98;letter-spacing:-.035em}h1 em{color:var(--red)}.cover-note{font-size:17px;line-height:1.55;margin-top:35px;max-width:340px}.cover-seal{position:absolute;right:6vw;bottom:35px;color:#f9e4be;border:1px solid #f9e4be;writing-mode:vertical-rl;padding:10px 7px;font-family:serif;font-size:25px;transform:rotate(3deg)}
+.letter{max-width:660px;margin:0 auto;padding:90px 25px 80px;text-align:center}.letter .handwriting{font-size:38px;margin-bottom:20px;transform:rotate(-2deg)}.letter>p:not(.handwriting){font-size:14px;max-width:530px;margin-inline:auto}.little-route{display:flex;align-items:center;justify-content:center;gap:15px;margin-top:35px;font-family:var(--hand);font-size:25px}.route-thread{width:50px;border-top:1.5px dashed var(--red);transform:rotate(-4deg)}
+.journey{position:relative;max-width:1300px;margin-inline:auto;padding-inline:50px;isolation:isolate}.journey-route{position:absolute;inset:0;z-index:-1;width:100%;height:100%;overflow:visible;pointer-events:none}.journey-route path{fill:none;stroke-linecap:round}.route-wash{stroke:var(--paper);stroke-width:14px}.route-dots{stroke:#ad725c;stroke-width:1.5px;stroke-dasharray:3 8;opacity:.65}.route-progress{stroke:var(--red);stroke-width:2.5px}.route-traveler{fill:var(--red);stroke:var(--paper);stroke-width:3px}.chapter{position:relative;margin-bottom:70px}.chapter-opening{min-height:570px;position:relative;display:grid;grid-template-columns:.85fr 1.15fr;align-items:center;gap:30px;padding:30px 0 60px}.chapter-heading{padding-left:10px;z-index:1;position:relative}.chapter-heading h2{font-size:clamp(75px,9vw,120px);line-height:.87;letter-spacing:-.04em}.chapter-heading .handwriting{margin-top:25px;max-width:350px;transform:rotate(-3deg);font-size:34px}.chapter-description{margin-top:24px;max-width:345px;font-size:14px}.chapter-dates{font-size:12px;margin-top:27px;color:var(--pencil)}.chapter-cn{font-family:serif;font-size:32px;letter-spacing:.1em;color:var(--red);display:inline-block;margin-bottom:25px;border:1px solid var(--red);padding:8px 9px;line-height:1.1;transform:rotate(-5deg)}.chapter-art{width:calc(100% + 80px);max-width:none;margin-left:-40px;z-index:0;position:relative}.chapter-opening>figure{margin-left:-20px}.chapter-ys .chapter-opening{grid-template-columns:1.1fr .9fr}.chapter-ys .chapter-heading{grid-column:2;grid-row:1}.chapter-ys .chapter-opening>figure{grid-column:1;grid-row:1}.chapter-cq .chapter-heading h2{font-size:clamp(70px,8vw,108px)}
+.hotel-slip{width:43%;margin:0 0 65px auto;padding:20px 20px 17px;background:#ede3cc;transform:rotate(1deg);position:relative}.hotel-slip::before{content:'';position:absolute;width:78px;height:21px;background:#d2b98255;left:calc(50% - 39px);top:-10px;transform:rotate(-8deg)}.hotel-slip .handwriting{font-size:23px;margin-bottom:5px}.hotel-slip h3{font-size:28px}.hotel-slip>p:not(.handwriting){font-size:12px;margin-top:10px}.hotel-slip .room-meta{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:13px;font-size:11px}.room-meta strong{font-family:var(--hand);font-size:28px;font-weight:500;color:var(--red)}.hotel-slip>a{font-size:11px;display:inline-block;margin-top:9px}
+.moment{display:grid;grid-template-columns:minmax(0,1fr) 100px minmax(0,1fr);gap:0;align-items:center;min-height:400px;margin-bottom:45px;position:relative;padding-block:20px}.moment-copy{grid-column:1;grid-row:1;padding:10px 22px 10px 8px;max-width:490px}.moment-visual{grid-column:3;grid-row:1;padding:12px 0 20px 10px;position:relative;min-width:0}.moment:nth-of-type(even) .moment-copy{grid-column:3;padding:10px 10px 10px 22px}.moment:nth-of-type(even) .moment-visual{grid-column:1;padding:12px 10px 20px 0}.route-stop{grid-column:2;grid-row:1;justify-self:center;align-self:start;position:relative;display:grid;place-items:center;width:39px;height:39px;margin-top:48px;font-family:var(--hand);font-size:25px;line-height:1;color:var(--red);background:var(--paper);border:1.5px solid var(--red);border-radius:50%;transform:rotate(-8deg)}.moment-date{font-family:var(--hand);font-size:26px;color:var(--red);line-height:1.1;margin-bottom:13px}.moment h3{font-size:37px;max-width:420px;margin-bottom:20px}.agenda{font-size:13px;color:var(--ink)}.agenda p+p{margin-top:11px}.agenda strong{font-weight:600}.moment details{font-size:11px;color:var(--pencil);margin-top:17px;max-width:420px}.moment details>p{margin-top:10px}.moment details a{display:inline-block;margin-top:11px;color:var(--ink)}.moment-booking{font-size:12px;margin-top:17px;display:block;color:var(--red)}
+.photo{margin:0;background:#fffaf0;padding:9px 9px 11px;box-shadow:0 7px 18px #3b36211c;transform:rotate(-3deg);position:relative;z-index:1}.photo::before{content:'';position:absolute;width:72px;height:21px;background:#ceb27555;top:-11px;left:34%;transform:rotate(7deg);z-index:2}.photo img{width:100%;height:280px;object-fit:cover}.photo figcaption{font-family:var(--hand);font-size:22px;padding:10px 4px 0;line-height:1.1}.photo.secondary{position:absolute;width:52%;right:-13px;bottom:-22px;transform:rotate(8deg);z-index:2}.photo.secondary img{height:150px}.photo.secondary figcaption{font-size:19px}.moment .photo-portrait img{height:385px}.moment .photo-flat{transform:rotate(2deg)}.photo-note{font-family:var(--hand);font-size:26px;line-height:1.15;color:var(--red);text-align:center;max-width:310px;margin:26px auto 0;transform:rotate(-4deg)}.motif{background-image:url('assets/dessin-motifs.png');background-size:300% 200%;background-repeat:no-repeat;width:260px;height:260px;max-width:100%;margin:auto}.motif-dimsum{background-position:0 0}.motif-train{background-position:50% 0}.motif-mask{background-position:100% 0}.motif-bike{background-position:0 100%}.motif-raft{background-position:50% 100%}.motif-hotpot{background-position:100% 100%}.visual-illustration{min-height:320px;display:flex;flex-direction:column;justify-content:center}.visual-illustration .motif{width:310px;height:310px}.visual-illustration .handwriting{text-align:center;transform:rotate(-4deg)}.train-bridge{width:300px;margin:0 auto 5px;text-align:center;position:relative;padding:10px 0 20px;background:var(--paper)}.train-bridge .motif{width:180px;height:180px}.train-bridge>p{font-family:var(--hand);font-size:25px;color:var(--red);line-height:1.1}.train-bridge small{display:block;font-size:11px;color:var(--pencil);margin-top:10px}.tastes{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center;margin-top:30px;padding:30px 8px 45px;position:relative}.tastes-art .motif{width:270px;height:270px}.tastes .handwriting{font-size:32px;margin-bottom:19px}.taste-items{columns:2;column-gap:35px}.taste-item{break-inside:avoid;margin-bottom:22px;font-size:12px}.taste-item a{font-family:var(--hand);font-size:25px;line-height:1.1;text-decoration:none}.taste-item a:hover{text-decoration:underline}.taste-item p{font-size:11px;margin-top:7px;max-width:230px}.taste-item small{display:block;color:var(--red);margin-top:5px;font-size:11px}.tastes-art{position:relative}.tastes-art>p{font-family:var(--hand);font-size:24px;text-align:center;transform:rotate(-5deg);line-height:1.1;max-width:260px;margin-inline:auto}
+.memories{max-width:1200px;margin:30px auto 80px;padding:50px}.memories-copy{display:flex;justify-content:space-between;align-items:flex-end;gap:60px;margin-bottom:45px}.memories-copy>p{max-width:280px;font-size:13px;color:var(--pencil)}.contact-sheet{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.contact-sheet .photo img{height:230px}.contact-sheet .photo:nth-child(2){transform:rotate(3deg);margin-top:40px}.contact-sheet .photo:nth-child(3){transform:rotate(-1deg);margin-top:10px}.real-map{max-width:1150px;margin:0 auto;padding:70px 35px 80px}.map-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:50px;margin-bottom:30px}.map-heading>p{font-family:var(--hand);font-size:24px;color:var(--red);line-height:1.25}.map-fold{padding-block:20px;border-block:1px solid var(--line);margin-bottom:15px}.map-fold>summary{font-size:14px}.map-inside>a{font-size:12px}.map-inside iframe{display:block;width:100%;height:1100px;border:0;margin-top:20px}.last-page{max-width:1100px;padding:70px 35px 100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}.budget-note>.handwriting{transform:rotate(-4deg);margin-bottom:24px}.budget-note h2{font-size:48px}.budget-note h2 strong{font-weight:500;color:var(--red);font-family:var(--hand);font-size:62px}.budget-note>p:not(.handwriting){max-width:380px;font-size:13px;margin-top:22px}.last-page details{font-size:12px;margin-top:20px}.budget-lines{margin-top:20px}.budget-lines>div{display:flex;justify-content:space-between;gap:25px;padding-block:7px;border-bottom:1px dotted var(--line)}.budget-lines dd{margin:0;white-space:nowrap}.packing-note .motif{width:270px;height:270px}.packing-note>.handwriting{font-size:34px;text-align:center;transform:rotate(-4deg);margin-top:14px}.packing-note>p:not(.handwriting){font-size:13px;max-width:330px;margin:20px auto 0}.packing-note details{max-width:360px;margin-inline:auto}.closing{text-align:center;padding:70px 22px 100px;background:#eae1ce}.closing>span{font-size:34px;font-family:serif;letter-spacing:.18em;color:var(--red)}.closing>p{font-family:var(--serif);font-size:clamp(36px,4.6vw,65px);line-height:1.1;margin-top:28px}.closing>p em{color:var(--red)}.closing .handwriting{margin-top:30px;font-size:24px}footer{max-width:1100px;padding:25px 35px 45px;margin:auto;font-size:11px;color:var(--pencil)}footer details{max-width:850px}footer details p{margin-top:13px}.photo img{transition:filter .3s}.photo:hover img{filter:saturate(1.08)}
+.boarding-note{padding:27px 26px 25px;background:#ede3cc;width:92%;margin:auto;transform:rotate(-4deg);position:relative;box-shadow:0 7px 18px #3b362114}.boarding-note>.handwriting{font-size:27px;margin-bottom:30px}.boarding-note .airports{font-family:var(--body);font-size:43px;line-height:1.1;margin:0;letter-spacing:.03em}.boarding-note .airports span,.boarding-note>p:not(.handwriting) span{float:right}.boarding-note>p:not(.handwriting){font-size:11px}.boarding-note .airports{font-size:43px!important}.ticket-seam{border-top:1px dashed #b4a184;margin:25px -26px 22px}.boarding-note .ticket-sign{font-size:32px;text-align:center;margin:20px 0 0}.return-note{transform:rotate(3deg)}.tiny-motif{position:absolute;width:150px;height:150px;right:-28px;bottom:-45px;z-index:3;pointer-events:none}.river-illustration>img{width:120%;max-width:none;margin-left:-10%}.river-illustration figcaption{text-align:center;font-size:27px;transform:rotate(-3deg);margin-top:15px}
+@media(min-width:1500px){.cover-copy{margin-left:max(9vw,calc((100vw - 1300px)/2))}.cover-art{object-position:center 60%}}
+@media(max-width:1050px){.journey{padding-inline:35px}.chapter-opening{min-height:490px;grid-template-columns:1fr 1.1fr;gap:10px}.chapter-art{width:calc(100% + 50px);margin-left:-25px}.chapter-heading h2{font-size:90px}.chapter-cq .chapter-heading h2{font-size:80px}.chapter-heading .handwriting{font-size:29px}.chapter-description{font-size:13px;max-width:300px}.moment{grid-template-columns:minmax(0,1fr) 75px minmax(0,1fr)}.moment h3{font-size:32px}.photo img{height:245px}.photo.secondary img{height:125px}.moment .photo-portrait img{height:340px}.tastes{gap:35px}.last-page{gap:65px}.cover{min-height:690px}.cover-copy{margin-left:7vw}.cover-note{font-size:16px}}
+@media(max-width:700px){body{font-size:14px}.cover{height:810px;min-height:0}.cover-art{height:460px;inset:auto 0 0;object-position:62% center;mask-image:linear-gradient(to bottom,transparent 0%,black 24%)}.cover-copy{padding-top:55px;margin-left:27px;width:calc(100% - 48px)}.cover-date{font-size:10px;letter-spacing:0;margin-bottom:27px}h1{font-size:clamp(58px,17.2vw,72px);line-height:.96}.cover-note{font-size:15px;margin-top:25px}.cover-seal{display:none}.letter{padding:55px 26px 45px}.letter .handwriting{font-size:32px}.letter>p:not(.handwriting){font-size:13px}.little-route{font-size:23px;gap:10px;margin-top:25px}.route-thread{width:25px}.journey{padding-inline:19px 22px;max-width:580px}.chapter{margin-bottom:35px}.chapter-opening,.chapter-ys .chapter-opening{display:flex;flex-direction:column;align-items:stretch;gap:0;min-height:0;padding:25px 0 35px}.chapter-heading{padding-left:25px}.chapter-cn{font-size:24px;position:absolute;right:0;top:0;margin:0;writing-mode:vertical-rl;padding:7px 6px}.chapter-heading h2{font-size:78px;max-width:calc(100% - 34px)}.chapter-cq .chapter-heading h2{font-size:67px}.chapter-heading .handwriting{font-size:30px;max-width:270px;margin-top:18px}.chapter-description{font-size:13px;max-width:270px;margin-top:20px}.chapter-dates{font-size:11px;margin-top:17px}.chapter-opening>figure{margin:10px -15px -10px 5px;order:2}.chapter-ys .chapter-heading{order:1}.chapter-art{width:100%;margin:0}.hotel-slip{width:calc(100% - 45px);margin:10px 0 50px 42px;padding:19px 17px;transform:rotate(1deg)}.hotel-slip h3{font-size:29px}.hotel-slip>p:not(.handwriting){font-size:12px}.room-meta strong{font-size:26px}.moment,.moment:nth-of-type(even){display:grid;grid-template-columns:32px minmax(0,1fr);gap:10px;min-height:0;padding-block:0;margin-bottom:48px}.moment-copy,.moment:nth-of-type(even) .moment-copy{grid-column:2;grid-row:1;max-width:100%;padding:0 0 0 5px}.moment-visual,.moment:nth-of-type(even) .moment-visual{grid-column:2;grid-row:2;padding:15px 5px 15px 7px;max-width:100%;margin-top:8px}.route-stop{grid-column:1;grid-row:1;width:29px;height:29px;font-size:21px;margin-top:7px}.moment-date{font-size:25px;margin-bottom:10px}.moment h3{font-size:34px;margin-bottom:18px}.agenda{font-size:13px}.moment details{font-size:11px}.photo img{height:240px}.photo figcaption{font-size:23px}.photo.secondary{right:-5px;bottom:-9px;width:50%}.photo.secondary img{height:110px}.photo.secondary figcaption{font-size:18px}.moment .photo-portrait img{height:345px;object-position:center 48%}.photo-note{font-size:24px;max-width:260px;margin-top:25px}.visual-illustration{min-height:270px}.visual-illustration .motif{width:260px;height:260px}.visual-illustration .handwriting{font-size:28px}.tastes{grid-template-columns:1fr;padding:0 0 35px 45px;gap:5px;margin-top:-10px}.tastes-art .motif{width:230px;height:230px}.tastes-art>p{font-size:24px;margin-top:-10px}.tastes .handwriting{font-size:30px;margin-top:15px}.taste-items{columns:1}.taste-item{margin-bottom:20px}.taste-item p{max-width:100%;font-size:12px}.taste-item small{font-size:11px}.train-bridge{margin:10px 0 20px 42px;width:calc(100% - 42px);padding:5px 0 25px}.train-bridge .motif{width:175px;height:175px}.train-bridge>p{font-size:26px}.memories{padding:40px 25px;margin:0 0 25px}.memories-copy{display:block;margin-bottom:30px}.memories-copy h2{font-size:43px}.memories-copy>p{margin-top:20px}.contact-sheet{grid-template-columns:1fr;gap:26px;max-width:340px;margin:auto}.contact-sheet .photo:nth-child(2),.contact-sheet .photo:nth-child(3){margin-top:0}.contact-sheet .photo img{height:230px}.real-map{padding:45px 24px 50px}.map-heading{display:block;margin-bottom:23px}.map-heading h2{font-size:46px}.map-heading>p{font-size:24px;margin-top:20px}.map-fold>summary{font-size:13px}.map-inside iframe{height:1400px}.last-page{display:block;padding:40px 27px 65px}.budget-note h2{font-size:43px}.budget-note h2 strong{font-size:58px}.budget-note>p:not(.handwriting){font-size:13px}.packing-note{margin-top:25px}.packing-note .motif{width:240px;height:240px}.packing-note>.handwriting{margin-top:0;font-size:32px}.packing-note details{max-width:none}.closing{padding:55px 24px 65px}.closing>p{font-size:41px}.closing .handwriting{font-size:24px}footer{padding:25px}.route-traveler{r:5px}}
+@media(max-width:370px){.cover{height:760px}.cover-copy{margin-left:23px}.cover-date{font-size:9px}.cover-note{font-size:14px}.cover-art{height:420px}.chapter-cq .chapter-heading h2{font-size:57px}.chapter-heading h2{font-size:68px}.moment h3{font-size:31px}.photo img{height:210px}.hotel-slip{margin-left:35px;width:calc(100% - 35px)}.hotel-slip h3{font-size:26px}.room-meta{flex-wrap:wrap}.little-route{gap:6px;font-size:21px}.route-thread{width:16px}}
+@media(max-width:700px){.tiny-motif{position:relative;right:auto;bottom:auto;width:110px;height:110px;margin:15px 0 0 auto}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Les dates se lisent comme des repères du carnet. */
+.date-pair{display:flex;align-items:center;gap:18px}
+.date-pair time{display:flex;flex-direction:column;align-items:center;min-width:68px;line-height:1}
+.date-number{font-family:var(--serif);font-size:44px;font-weight:500;font-variant-numeric:lining-nums tabular-nums;color:var(--red)}
+.date-month{font-family:var(--body);font-size:13px;line-height:1.3;margin-top:4px;color:var(--ink)}
+.date-stitch{width:31px;border-top:1px dashed var(--red);transform:rotate(-5deg)}
+.cover-copy{padding-top:6vh}
+.cover-date.travel-dates{display:flex;align-items:center;gap:24px;width:fit-content;max-width:100%;padding:13px 20px 15px;background:#f6f0e4e8;box-shadow:0 4px 18px #463a2220;margin-bottom:29px;letter-spacing:0;transform:rotate(-1deg)}
+.date-year{font-family:var(--hand);font-size:30px;line-height:1;color:var(--red);padding-left:20px;border-left:1px solid var(--line)}
+.date-year>span{display:block;font-family:var(--body);font-size:11px;line-height:1.4;color:var(--ink);margin-top:7px;white-space:nowrap}
+.chapter-dates.stay-dates{display:flex;align-items:center;gap:23px;width:fit-content;padding:13px 0 14px;margin-top:28px;border-block:1px solid var(--line)}
+.stay-dates .date-number{font-size:38px}
+.stay-dates .date-month{font-size:13px}
+.stay-nights{font-family:var(--hand);font-size:23px;line-height:1;white-space:nowrap;color:var(--ink);padding-left:20px;border-left:1px solid var(--line)}
+.stay-nights strong{font-weight:500;font-size:32px;color:var(--red)}
+.little-route{gap:12px;margin-top:29px}
+.little-city{display:flex;flex-direction:column;align-items:center;gap:4px;line-height:1.1}
+.little-city img{width:116px;height:78px;object-fit:contain}
+.little-route .route-thread{width:36px;margin-top:45px}
+
+/* Photos conservées comme de petits tirages autour de la note d’hôtel. */
+.hotel-spread{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:70px;margin:15px 0 75px;padding:15px 8px 20px}
+.hotel-spread .hotel-slip{width:100%;margin:0;transform:rotate(1deg)}
+.hotel-gallery{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:15px;padding:13px 0 35px}
+.hotel-photo{min-width:0;transform:rotate(-5deg);padding:8px 8px 12px}
+.hotel-photo:nth-child(2){margin-top:88px;transform:rotate(5deg)}
+.hotel-photo img{height:205px;object-fit:cover}
+.hotel-photo figcaption{font-size:22px;line-height:1.1;padding-top:12px}
+.hotel-panorama img{object-position:47% 48%}
+.hotel-slip>.hotel-photo-source{font-size:10px!important;line-height:1.5;color:var(--pencil);margin-top:15px!important}
+.hotel-photo-source a{font-size:10px}
+.travel-collage{padding:6px 0 15px;position:relative}
+.travel-collage .photo{width:96%;transform:rotate(3deg)}
+.travel-collage .photo img{height:285px}
+.travel-ticket{position:relative;z-index:2;background:var(--slip,#ede3cc);padding:15px 23px 16px;width:82%;margin:18px 0 0 -5px;transform:rotate(-4deg);box-shadow:0 5px 14px #3b362118}
+.travel-ticket .handwriting{font-size:24px;line-height:1.05;margin-bottom:14px}
+.ticket-route{display:flex;align-items:center;justify-content:space-between;gap:20px;font-family:var(--body);font-size:30px;line-height:1;margin:0}
+.ticket-route strong{font-weight:450}
+.ticket-flight{flex:1;border-top:1px dashed var(--red)}
+.travel-ticket>p:last-child{font-size:11px;margin-top:13px}
+
+/* Informations pratiques : un feuillet à ouvrir et un billet de visite. */
+.moment .day-practical{margin-top:23px;max-width:420px;display:flex;flex-wrap:wrap;gap:12px}
+.moment .day-details{width:100%;margin:0;color:var(--ink)}
+.day-details>summary{display:flex;align-items:center;gap:10px;list-style:none;text-decoration:none;font-size:13px;font-weight:500;min-height:46px;width:100%;padding:11px 13px;background:#ede3cc80;border-bottom:1px solid var(--line)}
+.day-details>summary::-webkit-details-marker{display:none}
+.day-details>summary:hover{background:#e9ddc3}
+.day-practical svg{width:23px;height:23px;flex:0 0 23px;color:var(--red)}
+.disclosure-mark{width:15px;height:15px;position:relative;margin-left:auto}
+.disclosure-mark::before,.disclosure-mark::after{content:'';position:absolute;left:1px;right:1px;top:7px;border-top:1px solid var(--red)}
+.disclosure-mark::after{transform:rotate(90deg)}
+.day-details[open] .disclosure-mark::after{transform:rotate(0)}
+.moment .day-details[open]>summary{margin-bottom:0}
+.day-detail-content{font-size:13px;padding:14px 13px 9px}
+.day-detail-content p+p{margin-top:10px}
+.visit-note{display:flex;align-items:center;gap:12px;min-height:54px;text-decoration:none;padding:10px 13px;color:var(--red);border:1px dashed #ad725c80;max-width:100%;background:#fffaf04d}
+.visit-note strong{display:block;font-family:var(--hand);font-size:25px;font-weight:500;line-height:1.05}
+.visit-note small{display:block;font-size:11px;color:var(--pencil);line-height:1.4;margin-top:5px}
+.visit-note:hover{background:#fffaf0;border-color:var(--red)}
+
+/* Les vidéos restent chez leurs auteurs, le lecteur apparaît seulement au clic. */
+.traveler-film{display:grid;grid-template-columns:1.35fr .65fr;gap:45px;align-items:center;padding:22px 8px 30px;margin:8px 0 40px;background:var(--paper)}
+.film-player{position:relative;padding:8px;background:#fffaf0;box-shadow:0 6px 18px #3b36211c;transform:rotate(-2deg)}
+.film-player::before{content:'';position:absolute;width:80px;height:20px;top:-10px;left:36%;background:#ceb27555;transform:rotate(8deg);z-index:2;pointer-events:none}
+.film-poster{position:relative;width:100%;aspect-ratio:16/9;display:block;padding:0;border:0;cursor:pointer;overflow:hidden;background:var(--ink);color:#fffaf0;font:inherit}
+.film-poster img{width:100%;height:100%;object-fit:cover;opacity:.83}
+.film-play{position:absolute;top:50%;left:50%;width:62px;height:62px;display:grid;place-items:center;transform:translate(-50%,-60%);border:1px solid #fffaf0;border-radius:50%;background:#273c346e}
+.film-play svg{width:34px;height:34px}
+.film-play-label{position:absolute;bottom:14px;left:10px;right:10px;font-family:var(--hand);font-size:27px;line-height:1.1;text-shadow:0 2px 5px #000c}
+.film-poster:hover img{opacity:1}
+.film-player iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
+.film-caption .handwriting{font-size:33px;transform:rotate(-3deg);margin-bottom:20px}
+.film-caption>p:not(.handwriting){font-size:13px;max-width:250px}
+.film-caption a{font-size:11px;display:inline-block;margin-top:16px;color:var(--pencil)}
+
+@media(max-width:1050px){
+ .hotel-spread{gap:36px;grid-template-columns:1fr 1fr}
+ .hotel-photo img{height:180px}
+ .hotel-photo figcaption{font-size:20px}
+ .traveler-film{gap:30px}
+}
+@media(max-width:700px){
+ .cover-copy{padding-top:39px}
+ .cover-date.travel-dates{padding:11px 13px 12px;gap:16px;margin-bottom:27px}
+ .cover-date .date-pair{gap:12px}
+ .date-pair time{min-width:61px}
+ .date-number{font-size:38px}
+ .date-month{font-size:12px}
+ .date-stitch{width:23px}
+ .date-year{font-size:27px;padding-left:13px}
+ .date-year>span{font-size:10px}
+ .chapter-dates.stay-dates{gap:19px;padding-block:12px;margin-top:23px}
+ .stay-dates .date-pair{gap:12px}
+ .stay-dates .date-number{font-size:36px}
+ .stay-dates .date-month{font-size:12px}
+ .stay-nights{font-size:22px;padding-left:14px}
+ .stay-nights strong{font-size:30px}
+ .little-route{gap:4px;margin-top:25px}
+ .little-city img{width:88px;height:65px}
+ .little-city{font-size:24px}
+ .little-route .route-thread{width:15px;margin-top:36px}
+ .hotel-spread{display:flex;flex-direction:column;gap:28px;padding:10px 0 10px 42px;margin:0 0 45px}
+ .hotel-spread .hotel-slip{order:1;width:100%;margin:0;padding:20px 17px}
+ .hotel-gallery{order:2;width:100%;gap:10px;padding:10px 0 15px}
+ .hotel-photo{grid-column:1 / -1;width:94%;justify-self:start;transform:rotate(-3deg)}
+ .hotel-photo:nth-child(2){margin:0;width:84%;justify-self:end;transform:rotate(4deg)}
+ .hotel-photo img{height:205px}
+ .hotel-photo:nth-child(2) img{height:160px}
+ .hotel-photo.hotel-panorama img{height:130px;object-fit:cover}
+ .hotel-photo figcaption{font-size:23px}
+ .travel-collage .photo img{height:260px}
+ .travel-ticket{width:93%;margin-top:18px;padding:16px 18px}
+ .travel-ticket .handwriting{font-size:24px}
+ .ticket-route{font-size:28px}
+ .moment .day-practical{margin-top:22px}
+ .day-details>summary{font-size:12px;padding:10px;gap:8px}
+ .day-detail-content{padding-inline:10px}
+ .visit-note{padding:10px;gap:9px}
+ .visit-note strong{font-size:24px}
+ .traveler-film{display:block;margin:0 0 35px;padding:25px 2px 25px 44px}
+ .film-caption{padding:24px 4px 0}
+ .film-caption .handwriting{font-size:31px;margin-bottom:15px}
+ .film-caption>p:not(.handwriting){font-size:13px;max-width:none}
+ .film-play{width:50px;height:50px}
+ .film-play svg{width:29px;height:29px}
+ .film-play-label{font-size:23px;bottom:11px}
+}
+@media(max-width:370px){
+ .cover-date.travel-dates{gap:11px;padding-inline:10px}
+ .cover-date .date-pair{gap:8px}
+ .cover-date .date-month{font-size:11px}
+ .date-year{padding-left:10px}
+ .chapter-dates.stay-dates{gap:14px}
+ .stay-dates .date-pair{gap:9px}
+ .stay-dates .date-number{font-size:34px}
+ .little-city img{width:78px;height:58px}
+ .little-city{font-size:22px}
+ .little-route .route-thread{width:10px}
+}
