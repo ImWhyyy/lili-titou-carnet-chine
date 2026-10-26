@@ -75,6 +75,56 @@ img{height:auto}
 .visit-note small{display:block;font-size:11px;color:var(--pencil);line-height:1.4;margin-top:5px}
 .visit-note:hover{background:#fffaf0;border-color:var(--red)}
 
+/* Les déplacements précèdent leur destination et restent visibles. */
+.incoming-run{padding-top:25px;margin-bottom:35px}
+.day-run{position:relative;display:flow-root}
+.moment .moment-title{font-family:var(--serif);font-size:37px;max-width:420px;margin-bottom:20px;line-height:1.05;letter-spacing:-.025em}
+.handovers{margin-top:30px;max-width:440px}
+.handovers>.handwriting{font-size:27px;margin-bottom:16px}
+.handovers ol{list-style:none;margin:0;padding:0;display:grid;gap:19px}
+.handover-leg{display:grid;grid-template-columns:25px minmax(0,1fr);gap:12px;position:relative}
+.handover-icon{color:var(--red);padding-top:2px}
+.handover-icon svg{width:24px;height:24px;display:block}
+.handover-mode{font-family:var(--hand);font-size:24px;line-height:1.05;color:var(--red)}
+.handover-route{font-size:13px;font-weight:500;line-height:1.45;margin-top:5px}
+.handover-time{font-size:12px;line-height:1.4;margin-top:5px;color:var(--pencil)}
+.handover-detail{font-size:12px;line-height:1.55;margin-top:6px;max-width:39ch}
+.human-moment .photo img{object-position:center 45%}
+.moment-visual .photo.secondary{position:relative;width:67%;right:auto;bottom:auto;margin:25px 0 0 auto;transform:rotate(5deg)}
+.moment-visual .photo.secondary img{height:155px}
+.tastes-art .human-photo{max-width:360px;transform:rotate(-3deg)}
+.tastes-art .human-photo img{height:265px}
+.tastes-art>.human-photo+p{margin-top:25px}
+.tastes-art .human-photo figcaption{font-size:22px}
+.tastes>div:last-child{min-width:0}
+@media(max-width:1100px){.taste-items{columns:1}.moment .moment-title{font-size:32px}}
+@media(max-width:900px){
+ .moment,.moment:nth-of-type(even){grid-template-columns:32px minmax(0,1fr);gap:10px;min-height:0;padding-block:0;margin-bottom:48px}
+ .moment-copy,.moment:nth-of-type(even) .moment-copy{grid-column:2;grid-row:1;max-width:100%;padding:0 0 0 5px}
+ .moment-visual,.moment:nth-of-type(even) .moment-visual{grid-column:2;grid-row:2;padding:20px 5px 20px 7px;max-width:560px;width:100%;justify-self:center;margin-top:8px}
+ .route-stop{grid-column:1;grid-row:1;width:29px;height:29px;font-size:21px;margin-top:7px}
+ .moment .moment-title{font-size:34px;max-width:560px}
+ .agenda{max-width:62ch}
+ .handovers{max-width:560px}
+ .handover-detail{max-width:55ch}
+ .moment .day-practical{max-width:560px}
+ .photo.secondary{right:0}
+}
+@media(max-width:700px){
+ .incoming-run{padding-top:20px;margin-bottom:0}
+ .handovers{margin-top:27px}
+ .handovers ol{gap:20px}
+ .handover-leg{grid-template-columns:23px minmax(0,1fr);gap:10px}
+ .handover-mode{font-size:24px}
+ .handover-detail{font-size:12px}
+ .tastes-art .human-photo{max-width:100%;margin-bottom:26px}
+ .tastes-art .human-photo img{height:225px}
+ .tastes-art>.human-photo+p{margin-top:0}
+ .moment-visual .photo.secondary{width:85%;margin-top:23px;transform:rotate(3deg)}
+ .moment-visual .photo.secondary img{height:145px}
+}
+@media(max-width:370px){.moment .moment-title{font-size:31px}}
+
 /* Les vidéos restent chez leurs auteurs, le lecteur apparaît seulement au clic. */
 .traveler-film{display:grid;grid-template-columns:1.35fr .65fr;gap:45px;align-items:center;padding:22px 8px 30px;margin:8px 0 40px;background:var(--paper)}
 .film-player{position:relative;padding:8px;background:#fffaf0;box-shadow:0 6px 18px #3b36211c;transform:rotate(-2deg)}
